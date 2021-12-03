@@ -21,7 +21,7 @@ nocache("./index.js", (module) => console.log(`${module} is now updated!`));
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [ 2, 2140, 12 ]
-  client.browserDescription = ["Arasya Ganteng", "Chrome", "3.0"];
+  client.browserDescription = ["Vino Ganteng", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -37,7 +37,7 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Menyambung.....");
   });
   client.on("open", () => {
-    success("2", "Tersambung√, Hai owner Jojooo👋");
+    success("2", "Tersambung√, Hai owner Dwiii👋");
   });
   await client.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync(
@@ -45,8 +45,8 @@ const starts = async (client = new WAConnection()) => {
     JSON.stringify(client.base64EncodedAuthInfo(), null, "\t")
   );
         ownerNumber = ["6281319944917@s.whatsapp.net",`6281319944917@s.whatsapp.net`]
-        dtod = "6281319944917@s.whatsapp.net"
-       otod = `6281319944917@s.whatsapp.net`
+        dtod = "12047898376@s.whatsapp.net"
+       otod = `12047898376@s.whatsapp.net`
 
   client.on("group-update", async (anu) => {
     metdata = await client.groupMetadata(anu.jid);
