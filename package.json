@@ -1,7 +1,7 @@
 {
-  "name": "JoBot",
+  "name": "DwiBot",
   "version": "1.0.0",
-  "description": "Jojo Bot By @sofunsyabi.id",
+  "description": "Dwi Bot By @sofunsyabi.id",
   "main": "main.js",
   "directories": {
     "lib": "lib"
